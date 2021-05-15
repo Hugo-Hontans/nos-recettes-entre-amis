@@ -1,16 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
-.button-basic {
-  background-color: #BA68C8;
-  border-color: #BA68C8;
-  color: #ffffff;
-  border-style: none;
-  padding: 0.5em 1em;
-  border-radius: 3px;
-  font-size: 1em;
-}
+@import './styles/button.css';
 
-.button-basic:hover {
-  background-color: #b052c0;
-  border-color: #b052c0;
-  cursor: pointer;
+:root {
+  background-color: #1e1e1e;
+
+  --primary: #c279ce;
+  --primary-hover: #af50bf;
 }
