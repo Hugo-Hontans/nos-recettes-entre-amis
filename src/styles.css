@@ -1,8 +1,7 @@
-@import './styles/button.css';
+@import '../node_modules/primeng/resources/themes/arya-purple/theme.css';
+@import '../node_modules/primeicons/primeicons.css';
+@import '../node_modules/primeng/resources/primeng.min.css';
 
-:root {
+body {
   background-color: #1e1e1e;
-
-  --primary: #c279ce;
-  --primary-hover: #af50bf;
 }
